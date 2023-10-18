@@ -31,3 +31,6 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
         - stampa nome
         - stampa ruolo
         - stampa foto
+
+### MILESTONE 2:
+- Stampare le stesse informazioni su DOM sottoforma di stringhe

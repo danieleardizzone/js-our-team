@@ -44,3 +44,15 @@ for (i = 0; i < teamMembers.length; i++){
     console.log('ruolo: ' + currentMember.ruolo);
     console.log('foto: ' + currentMember.foto);
 };
+
+const teamMembersDOMElement = document.getElementById('team-members')
+
+for (i = 0; i < teamMembers.length; i++){
+
+    const currentMember = teamMembers[i];
+
+    teamMembersDOMElement.innerHTML += '<div>' + i + '</div>';
+    teamMembersDOMElement.innerHTML += '<div>' + currentMember.nome + '</div>';
+    teamMembersDOMElement.innerHTML += '<div>' + currentMember.ruolo + '</div>';
+    teamMembersDOMElement.innerHTML += '<div>' + currentMember.foto + '</div>';
+};
