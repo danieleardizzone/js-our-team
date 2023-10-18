@@ -41,13 +41,8 @@ for (i = 0; i < teamMembers.length; i++){
     const currentMember = teamMembers[i];
 
     teamMembersDOMElement.innerHTML += `<div class="member">
+            <img class="member__foto" src="./img/${currentMember.foto}">
             <div class="member__nome">${currentMember.nome}</div>
             <div class="member__ruolo">${currentMember.ruolo}</div>
-            <img src="./img/${currentMember.foto}">
         </div>`;
-
-    // teamMembersDOMElement.innerHTML += '<div>' + i + '</div>';
-    // teamMembersDOMElement.innerHTML += '<div>' + currentMember.nome + '</div>';
-    // teamMembersDOMElement.innerHTML += '<div>' + currentMember.ruolo + '</div>';
-    // teamMembersDOMElement.innerHTML += '<div>' + currentMember.foto + '</div>';
 };

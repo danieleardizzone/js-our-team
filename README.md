@@ -40,3 +40,6 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
     - PER ognuno degli elementi dell'array
         - Creiamo un template literal
             - Inseriamo un tag img con la foto corrente
+
+### BONUS 2:
+- Organizzare i singoli membri in card/schede

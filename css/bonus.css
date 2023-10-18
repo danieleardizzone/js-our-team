@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    background-color:#748CAB;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-sm{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* header */
+
+#title, 
+#subtitle{
+    text-align: center;
+    padding: 8px;
+}
+
+#title{
+    font-size: 28px;
+    color: #0D1321;
+}
+
+#subtitle{
+    color: #1D2D44;
+}
+
+/* main */
+
+#team-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    background-color: #1D2D44;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.member__foto{
+    border-radius: 15px;
+}
+
+.member__nome{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #F0EBD8;
+}
+
+.member__ruolo{
+    font-size: 16px;
+    color: #748CAB;
+}
