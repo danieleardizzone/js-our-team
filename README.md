@@ -24,3 +24,10 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
             ruolo: 'Founder & CEO',
             foto: 'wayne-barnett-founder-ceo.jpg'}, {}...
         ]
+
+### MILESTONE 1:
+- Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+    - PER ognuno degli elementi dell'array
+        - stampa nome
+        - stampa ruolo
+        - stampa foto
