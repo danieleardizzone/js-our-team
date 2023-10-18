@@ -34,3 +34,9 @@ Barbara Ramos	Graphic Designer	    barbara-ramos-graphic-designer.jpg
 
 ### MILESTONE 2:
 - Stampare le stesse informazioni su DOM sottoforma di stringhe
+
+### BONUS 1:
+- Trasformare la stringa foto in una immagine effettiva
+    - PER ognuno degli elementi dell'array
+        - Creiamo un template literal
+            - Inseriamo un tag img con la foto corrente
